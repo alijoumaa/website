@@ -1,5 +1,5 @@
     function getData(){
-        fetch('http://localhost:3000')
+        fetch("https://website2412021.herokuapp.com/")
         .then(response => response.json())
         .then(json => {
             var client = json[0].Price
